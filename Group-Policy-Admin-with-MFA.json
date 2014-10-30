@@ -1,5 +1,5 @@
 {
-    "GroupName": “Group-Admin-with-MFA”, 
+    "GroupName": "Group-Admin-with-MFA", 
     "PolicyDocument": {
         "Version": "2012-10-17", 
         "Statement": [
@@ -15,5 +15,5 @@
             }
         ]
     }, 
-    "PolicyName": “Admin-with-MFA"
+    "PolicyName": "Admin-with-MFA"
 }
