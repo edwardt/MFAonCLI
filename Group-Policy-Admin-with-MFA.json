@@ -1,0 +1,19 @@
+{
+    "GroupName": “Group-Admin-with-MFA”, 
+    "PolicyDocument": {
+        "Version": "2012-10-17", 
+        "Statement": [
+            {
+                "Action": "*", 
+                "Resource": "*", 
+                "Effect": "Allow", 
+                "Condition": {
+                    "Null": {
+                        "aws:MultiFactorAuthAge": "false"
+                    }
+                }
+            }
+        ]
+    }, 
+    "PolicyName": “Admin-with-MFA"
+}
